@@ -11,7 +11,7 @@ const Home = () => {
         // imageAlt="Confident smile after orthodontic treatment"
       />
       <Hero2 />
-      {/* <AboutSnapshot /> */}
+      <AboutSnapshot />
     </>
   );
 };
