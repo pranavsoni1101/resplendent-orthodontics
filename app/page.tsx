@@ -1,5 +1,5 @@
-import AboutSnapshot from "@/components/about-snapshot";
-import Hero, { Hero2 } from "@/components/hero";
+import AboutSnapshot from "@/components/home-layouts/about-snapshot";
+import Hero, { Hero2 } from "@/components/home-layouts/hero";
 
 const Home = () => {
   return (
