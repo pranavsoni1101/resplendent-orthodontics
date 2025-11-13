@@ -1,4 +1,5 @@
 import AboutSnapshot from "@/components/home-layouts/about-snapshot";
+import SectionFaqResources from "@/components/home-layouts/faq";
 import Hero, { Hero2 } from "@/components/home-layouts/hero";
 import OurEthos from "@/components/home-layouts/our-ethos";
 import OurEthosCarousel from "@/components/home-layouts/our-ethos-carousel";
@@ -20,6 +21,7 @@ const Home = () => {
       <OurEthosCarousel />
       <TreatmentsOverview />
       <SectionProof />
+      <SectionFaqResources />
     </>
   );
 };
