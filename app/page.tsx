@@ -2,6 +2,7 @@ import AboutSnapshot from "@/components/home-layouts/about-snapshot";
 import Hero, { Hero2 } from "@/components/home-layouts/hero";
 import OurEthos from "@/components/home-layouts/our-ethos";
 import OurEthosCarousel from "@/components/home-layouts/our-ethos-carousel";
+import SectionProof from "@/components/home-layouts/section-proof";
 import { TreatmentsOverview } from "@/components/home-layouts/treatments";
 
 const Home = () => {
@@ -18,6 +19,7 @@ const Home = () => {
       <OurEthos />
       <OurEthosCarousel />
       <TreatmentsOverview />
+      <SectionProof />
     </>
   );
 };
