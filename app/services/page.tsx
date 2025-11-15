@@ -2,7 +2,7 @@
 "use client";
 
 import Link from "next/link";
-import { SERVICES } from "@/data/services";
+import { SERVICES, type Service } from "@/data/services";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Search } from "lucide-react";
@@ -56,7 +56,7 @@ export default function ServicesIndex() {
   );
 }
 
-function ServiceCard({ service }: { service: any }) {
+function ServiceCard({ service }: { service: Service }) {
   return (
     <Card className="border-border bg-card shadow-sm hover:shadow-md transition-shadow">
       <CardContent className="p-5">
