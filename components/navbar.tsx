@@ -62,40 +62,47 @@ export function Navbar() {
                   <ul className="grid gap-3 sm:grid-cols-2">
                     <NavLink
                       href="/services/brackets"
-                      title="Brackets (Metal, Ceramic, Lingual)"
-                      desc="Reliable fixed braces with aesthetic and hidden options tailored to your needs."
+                      title="Brackets"
+                      desc="Metal, ceramic, self-ligating, and lingual options for precise fixed orthodontics."
                     />
+
                     <NavLink
                       href="/services/clear-aligners"
                       title="Clear Aligners"
-                      desc="Removable, nearly invisible trays designed for discreet, lifestyle-friendly treatment."
+                      desc="Removable, nearly invisible trays planned digitally for predictable results."
                     />
+
                     <NavLink
                       href="/services/growth-modifying-appliances"
                       title="Growth Modifying Appliances"
-                      desc="Guiding jaw growth in children and teens to correct skeletal imbalances early."
+                      desc="Early orthopedic guidance for jaw growth in children and adolescents."
                     />
+
                     <NavLink
                       href="/services/mini-implant"
                       title="Mini-Implants (TADs)"
-                      desc="Tiny temporary anchors that help move teeth precisely in complex cases."
+                      desc="Temporary anchorage devices for controlled, complex tooth movements."
                     />
+
                     <NavLink
                       href="/services/extra-alveolar-screws"
                       title="Extra-Alveolar Screws"
-                      desc="Special anchorage screws for larger tooth movements and advanced mechanics."
+                      desc="Advanced anchorage for large-scale retraction and adult orthodontics."
                     />
+
                     <NavLink
                       href="/services/digital-surgical-planning"
                       title="Digital Surgical Planning"
-                      desc="3D-planned orthodontic–surgical treatments for complex jaw and facial corrections."
+                      desc="3D-planned orthodontic–surgical coordination for skeletal discrepancies."
                     />
+
                     <NavLink
                       href="/services/artistic-mechanics"
                       title="Artistic Mechanics"
-                      desc="Finishing, detailing, and smile artistry to perfect function and aesthetics."
+                      desc="Finishing, detailing, and smile refinement where precision meets aesthetics."
                     />
                   </ul>
+
                 </div>
               </NavigationMenuContent>
             </NavigationMenuItem>
@@ -152,7 +159,7 @@ export function Navbar() {
         </NavigationMenu>
 
         {/* ---------- Actions (Desktop) ---------- */}
-        <div className="hidden items-center gap-2 md:flex">
+        <div className="hidden items-center gap-2 lg:flex">
           <Button
             asChild
             variant="outline"
@@ -269,60 +276,67 @@ function MobileNav() {
                 <SheetClose asChild>
                   <Link
                     href="/services/brackets"
-                    className="rounded-md px-1.5 py-1.5 text-foreground hover:bg-secondary/10 hover:text-primary"
+                    className="rounded-md px-1.5 py-1.5 hover:bg-secondary/10 hover:text-primary"
                   >
-                    Brackets (Metal, Ceramic, Lingual)
+                    Brackets
                   </Link>
                 </SheetClose>
+
                 <SheetClose asChild>
                   <Link
                     href="/services/clear-aligners"
-                    className="rounded-md px-1.5 py-1.5 text-foreground hover:bg-secondary/10 hover:text-primary"
+                    className="rounded-md px-1.5 py-1.5 hover:bg-secondary/10 hover:text-primary"
                   >
                     Clear Aligners
                   </Link>
                 </SheetClose>
+
                 <SheetClose asChild>
                   <Link
                     href="/services/growth-modifying-appliances"
-                    className="rounded-md px-1.5 py-1.5 text-foreground hover:bg-secondary/10 hover:text-primary"
+                    className="rounded-md px-1.5 py-1.5 hover:bg-secondary/10 hover:text-primary"
                   >
                     Growth Modifying Appliances
                   </Link>
                 </SheetClose>
+
                 <SheetClose asChild>
                   <Link
                     href="/services/mini-implant"
-                    className="rounded-md px-1.5 py-1.5 text-foreground hover:bg-secondary/10 hover:text-primary"
+                    className="rounded-md px-1.5 py-1.5 hover:bg-secondary/10 hover:text-primary"
                   >
                     Mini-Implants (TADs)
                   </Link>
                 </SheetClose>
+
                 <SheetClose asChild>
                   <Link
                     href="/services/extra-alveolar-screws"
-                    className="rounded-md px-1.5 py-1.5 text-foreground hover:bg-secondary/10 hover:text-primary"
+                    className="rounded-md px-1.5 py-1.5 hover:bg-secondary/10 hover:text-primary"
                   >
                     Extra-Alveolar Screws
                   </Link>
                 </SheetClose>
+
                 <SheetClose asChild>
                   <Link
                     href="/services/digital-surgical-planning"
-                    className="rounded-md px-1.5 py-1.5 text-foreground hover:bg-secondary/10 hover:text-primary"
+                    className="rounded-md px-1.5 py-1.5 hover:bg-secondary/10 hover:text-primary"
                   >
                     Digital Surgical Planning
                   </Link>
                 </SheetClose>
+
                 <SheetClose asChild>
                   <Link
                     href="/services/artistic-mechanics"
-                    className="rounded-md px-1.5 py-1.5 text-foreground hover:bg-secondary/10 hover:text-primary"
+                    className="rounded-md px-1.5 py-1.5 hover:bg-secondary/10 hover:text-primary"
                   >
                     Artistic Mechanics
                   </Link>
                 </SheetClose>
               </div>
+
             </div>
 
             <div className="my-5 h-px bg-border/60" />
