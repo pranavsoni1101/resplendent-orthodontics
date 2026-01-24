@@ -37,13 +37,13 @@ export default function Footer() {
     Orthodontic Treatments
   </h4>
   <ul className="space-y-2 text-sm ">
-    <li><Link href="/services/brackets">Brackets</Link></li>
-    <li><Link href="/services/clear-aligners">Clear Aligners</Link></li>
-    <li><Link href="/services/growth-modifying-appliances">Growth Modifying Appliances</Link></li>
-    <li><Link href="/services/mini-implant">Mini-Implants (TADs)</Link></li>
-    <li><Link href="/services/extra-alveolar-screws">Extra-Alveolar Screws</Link></li>
-    <li><Link href="/services/digital-surgical-planning">Digital Surgical Planning</Link></li>
-    <li><Link href="/services/artistic-mechanics">Artistic Mechanics</Link></li>
+    <li><Link href="/services/brackets" className="text-white/90 transition-all hover:text-black/70 ">Brackets</Link></li>
+    <li><Link href="/services/clear-aligners" className="text-white/90 transition-all hover:text-black/70 ">Clear Aligners</Link></li>
+    <li><Link href="/services/growth-modifying-appliances" className="text-white/90 transition-all hover:text-black/70 ">Growth Modifying Appliances</Link></li>
+    <li><Link href="/services/mini-implant" className="text-white/90 transition-all hover:text-black/70 ">Mini-Implants (TADs)</Link></li>
+    <li><Link href="/services/extra-alveolar-screws" className="text-white/90 transition-all hover:text-black/70 ">Extra-Alveolar Screws</Link></li>
+    <li><Link href="/services/digital-surgical-planning" className="text-white/90 transition-all hover:text-black/70 ">Digital Surgical Planning</Link></li>
+    <li><Link href="/services/artistic-mechanics" className="text-white/90 transition-all hover:text-black/70 ">Artistic Mechanics</Link></li>
   </ul>
 </div>
 
@@ -52,12 +52,12 @@ export default function Footer() {
     General & Cosmetic Care
   </h4>
   <ul className="space-y-2 text-sm ">
-    <li><Link href="/services/scaling-polishing">Scaling & Polishing</Link></li>
-    <li><Link href="/services/teeth-whitening">Teeth Whitening</Link></li>
-    <li><Link href="/services/smile-makeover">Smile Makeover (Veneers)</Link></li>
-    <li><Link href="/services/implants">Dental Implants</Link></li>
-    <li><Link href="/services/rct">Root Canal Treatment</Link></li>
-    <li><Link href="/services/pediatric-dentistry">Paediatric Dentistry</Link></li>
+    <li><Link href="/services/scaling-polishing" className="text-white/90 transition-all hover:text-black/70 ">Scaling & Polishing</Link></li>
+    <li><Link href="/services/teeth-whitening" className="text-white/90 transition-all hover:text-black/70 ">Teeth Whitening</Link></li>
+    <li><Link href="/services/smile-makeover" className="text-white/90 transition-all hover:text-black/70 ">Smile Makeover (Veneers)</Link></li>
+    <li><Link href="/services/implants" className="text-white/90 transition-all hover:text-black/70 ">Dental Implants</Link></li>
+    <li><Link href="/services/rct" className="text-white/90 transition-all hover:text-black/70 ">Root Canal Treatment</Link></li>
+    <li><Link href="/services/pediatric-dentistry" className="text-white/90 transition-all hover:text-black/70 ">Paediatric Dentistry</Link></li>
   </ul>
 </div>
 
