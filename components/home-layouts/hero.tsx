@@ -70,7 +70,7 @@ type Hero2Props = {
 
 export function Hero2({
   headline = "Smiles that shine out",
-  subheadline = "Gentle, precise, evidence-based orthodontic care.",
+  subheadline = "Gentle, precise, evidence-based dental care.",
   ctaPrimaryHref = "/contact",
   ctaPrimaryLabel = "Book Appointment",
   ctaSecondaryHref = "/services",

@@ -33,25 +33,90 @@ export default function Footer() {
 
           {/* Treatments */}
           <div>
-            <h4 className="text-sm font-semibold uppercase tracking-wide">
-              Treatments
-            </h4>
-            <ul className="mt-4 space-y-2 text-sm">
-              <FooterLink href="/services/brackets">Brackets</FooterLink>
-              <FooterLink href="/services/clear-aligners">Clear Aligners</FooterLink>
-              <FooterLink href="/services/growth-modifying-appliances">
-                Growth Modifying Appliances
-              </FooterLink>
-              <FooterLink href="/services/mini-implant">Mini-Implants (TADs)</FooterLink>
-              <FooterLink href="/services/extra-alveolar-screws">Extra-Alveolar Screws</FooterLink>
-              <FooterLink href="/services/digital-surgical-planning">
-                Digital Surgical Planning
-              </FooterLink>
-              <FooterLink href="/services/artistic-mechanics">Artistic Mechanics</FooterLink>
-            </ul>
-          </div>
+  <h4 className="mb-3 text-xs font-semibold uppercase tracking-wider ">
+    Orthodontic Treatments
+  </h4>
+  <ul className="space-y-2 text-sm ">
+    <li><Link href="/services/brackets" className="text-white/90 transition-all hover:text-black/70 ">Brackets</Link></li>
+    <li><Link href="/services/clear-aligners" className="text-white/90 transition-all hover:text-black/70 ">Clear Aligners</Link></li>
+    <li><Link href="/services/growth-modifying-appliances" className="text-white/90 transition-all hover:text-black/70 ">Growth Modifying Appliances</Link></li>
+    <li><Link href="/services/mini-implant" className="text-white/90 transition-all hover:text-black/70 ">Mini-Implants (TADs)</Link></li>
+    <li><Link href="/services/extra-alveolar-screws" className="text-white/90 transition-all hover:text-black/70 ">Extra-Alveolar Screws</Link></li>
+    <li><Link href="/services/digital-surgical-planning" className="text-white/90 transition-all hover:text-black/70 ">Digital Surgical Planning</Link></li>
+    <li><Link href="/services/artistic-mechanics" className="text-white/90 transition-all hover:text-black/70 ">Artistic Mechanics</Link></li>
+  </ul>
+</div>
 
-          {/* Contact */}
+<div>
+  <h4 className="mb-3 text-xs font-semibold uppercase tracking-wider ">
+    General & Cosmetic Care
+  </h4>
+  <ul className="space-y-2 text-sm ">
+    <li><Link href="/services/scaling-polishing" className="text-white/90 transition-all hover:text-black/70 ">Scaling & Polishing</Link></li>
+    <li><Link href="/services/teeth-whitening" className="text-white/90 transition-all hover:text-black/70 ">Teeth Whitening</Link></li>
+    <li><Link href="/services/smile-makeover" className="text-white/90 transition-all hover:text-black/70 ">Smile Makeover (Veneers)</Link></li>
+    <li><Link href="/services/implants" className="text-white/90 transition-all hover:text-black/70 ">Dental Implants</Link></li>
+    <li><Link href="/services/rct" className="text-white/90 transition-all hover:text-black/70 ">Root Canal Treatment</Link></li>
+    <li><Link href="/services/pediatric-dentistry" className="text-white/90 transition-all hover:text-black/70 ">Paediatric Dentistry</Link></li>
+  </ul>
+</div>
+
+
+        </div>
+        {/* Contact / CTA band */}
+<div className="mt-14 rounded-xl border border-white/15 bg-white/5 px-6 py-8 max-w-2xl mx-auto">
+  <div className="flex flex-col gap-8 md:flex-row md:items-center md:justify-between">
+
+    <div>
+      <h4 className="text-sm font-semibold uppercase tracking-wide">
+        Contact Us
+      </h4>
+
+      <ul className="mt-4 space-y-3 text-sm text-white/90">
+        <li className="flex gap-2">
+          <Phone className="size-4" />
+          <a href="tel:+9198XXXXXXXX" className="hover:text-black/70 transition">
+            +91 98XX-XXX-XXX
+          </a>
+        </li>
+
+        <li className="flex gap-2">
+          <Mail className="size-4" />
+          <a
+            href="mailto:care@resplendentorthodontics.com"
+            className="hover:text-black/70 transition"
+          >
+            care@resplendentorthodontics.com
+          </a>
+        </li>
+
+        <li className="flex gap-2">
+          <MapPin className="size-4" />
+          <span>
+            Malviya Nagar, Jaipur<br />
+            Rajasthan, India
+          </span>
+        </li>
+      </ul>
+    </div>
+
+    <div className="shrink-0 self-center text-left md:text-right">
+      <Link
+        href="/contact#book"
+        className="inline-block bg-primary text-primary-foreground px-6 py-3 rounded-md text-sm font-medium hover:bg-primary/90 transition"
+      >
+        Book Appointment
+      </Link>
+
+      <p className="mt-2 max-w-[260px] text-xs text-white/90">
+        Call or book online. Fees vary by case complexity.
+      </p>
+    </div>
+
+  </div>
+</div>
+
+          {/* Contact
           <div>
             <h4 className="text-sm font-semibold uppercase tracking-wide">
               Contact Us
@@ -89,8 +154,7 @@ export default function Footer() {
                 Book Appointment
               </Link>
             </div>
-          </div>
-        </div>
+          </div> */}
 
         {/* Divider */}
         <div className="border-t border-white/20 mt-10 pt-6 flex flex-col md:flex-row items-center justify-between gap-4">
