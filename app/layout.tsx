@@ -6,7 +6,7 @@ import Footer from "@/components/footer";
 
 
 export const metadata: Metadata = {
-  title: "Resplendent Orthodontics",
+  title: "Dr Purva Soni's ResplenDent Orthodontic & Dental Care",
   description: "Smiles that shine out – Orthodontic & Dental Care.",
 };
 

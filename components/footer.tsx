@@ -9,7 +9,7 @@ export default function Footer() {
 
           {/* Brand */}
           <div>
-            <h3 className="text-xl font-semibold">Resplendent Orthodontics</h3>
+            <h3 className="text-xl font-semibold">Dr Purva Soni's ResplenDent Orthodontic & Dental Care</h3>
             <p className="mt-3 text-sm text-white/80 max-w-sm leading-relaxed">
               Creating confident smiles through precision, technology,
               and compassionate orthodontic care.
@@ -122,7 +122,7 @@ export default function Footer() {
         <div className="border-t border-white/20 mt-10 pt-6 flex flex-col md:flex-row items-center justify-between gap-4">
 
           <p className="text-xs text-white/70">
-            © {new Date().getFullYear()} Resplendent Orthodontics. All rights reserved.
+            © {new Date().getFullYear()} Dr Purva Soni's ResplenDent Orthodontic & Dental Care. All rights reserved.
           </p>
 
           <div className="flex items-center gap-4 text-xs text-white/80">

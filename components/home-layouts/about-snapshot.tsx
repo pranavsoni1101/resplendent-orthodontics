@@ -11,7 +11,7 @@ export function AboutSnapshot() {
         {/* Text Block */}
         <div className="space-y-5">
           <p className="text-[11px] font-semibold uppercase tracking-[0.16em] text-secondary-foreground/80">
-            About Resplendent Orthodontics
+            About Dr Purva Soni's ResplenDent Orthodontic & Dental Care
           </p>
           <h2 className="text-3xl md:text-4xl font-semibold tracking-tight text-foreground">
             Vivifying the Fine Smiles
@@ -20,7 +20,7 @@ export function AboutSnapshot() {
           <p className="text-base leading-relaxed text-muted-foreground max-w-prose">
             We believe in the <span className="italic">uniqueness</span> of you — every smile is one of a kind.
             Your vividness is your signature mark, and at{" "}
-            <span className="font-medium">Resplendent Orthodontics</span>, we aim to sculpt the best
+            <span className="font-medium">Dr Purva Soni's ResplenDent Orthodontic & Dental Care</span>, we aim to sculpt the best
             version of your smile — tailored for you, only you.
           </p>
 
@@ -45,7 +45,7 @@ export function AboutSnapshot() {
           <div className="relative h-[260px] sm:h-[320px] md:h-[360px]">
             <Image
               src="https://images.pexels.com/photos/32852531/pexels-photo-32852531.jpeg"
-              alt="Smiling patient at Resplendent Orthodontics"
+              alt="Smiling patient at Dr Purva Soni's ResplenDent Orthodontic & Dental Care"
               fill
               sizes="(max-width: 768px) 100vw, 50vw"
               className="object-cover"

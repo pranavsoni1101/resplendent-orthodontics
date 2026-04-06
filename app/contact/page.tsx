@@ -27,7 +27,7 @@ export default function ContactPage() {
           {/* Top text band (full width) */}
           <div className="max-w-3xl">
             <p className="text-sm font-medium uppercase tracking-[0.18em] text-secondary-foreground/80">
-              Contact Resplendent Orthodontics
+              Contact Dr Purva Soni's ResplenDent Orthodontic & Dental Care
             </p>
             <h1 className="mt-3 text-3xl md:text-4xl font-semibold tracking-tight text-foreground">
               Let&apos;s talk about your smile.
