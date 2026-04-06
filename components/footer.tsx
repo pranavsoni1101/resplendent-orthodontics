@@ -108,9 +108,9 @@ export default function Footer() {
         Book Appointment
       </Link>
 
-      <p className="mt-2 max-w-[260px] text-xs text-white/90">
+      {/* <p className="mt-2 max-w-[260px] text-xs text-white/90">
         Call or book online. Fees vary by case complexity.
-      </p>
+      </p> */}
     </div>
 
   </div>
