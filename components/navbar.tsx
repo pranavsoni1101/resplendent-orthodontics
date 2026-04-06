@@ -166,7 +166,7 @@ export function Navbar() {
             size="sm"
             className="gap-2 border-secondary text-secondary-foreground hover:bg-secondary/10"
           >
-            <a href="tel:+91XXXXXXXXXX" aria-label="Call clinic">
+            <a href="tel:+919644057773" aria-label="Call clinic">
               <Phone className="size-4" />
               Call
             </a>
@@ -191,7 +191,7 @@ export function Navbar() {
             variant="outline"
             className="border-secondary text-secondary-foreground hover:bg-secondary/10"
           >
-            <a href="tel:+91XXXXXXXXXX" aria-label="Call clinic">
+            <a href="tel:+919644057773" aria-label="Call clinic">
               <Phone className="size-4" />
             </a>
           </Button>
@@ -395,7 +395,7 @@ function MobileNav() {
               variant="outline"
               className="w-full border-secondary text-secondary-foreground hover:bg-secondary/10"
             >
-              <a href="tel:+91XXXXXXXXXX">Call Clinic</a>
+              <a href="tel:+919644057773">Call Clinic</a>
             </Button>
           </div>
         </div>

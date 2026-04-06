@@ -96,9 +96,7 @@ export default function MeetTheMind() {
                             </Button>
                         </div>
 
-                        <p className="mt-4 text-xs text-muted-foreground">
-                            Replace the image + credentials line with the clinic’s real data for best trust.
-                        </p>
+
                     </div>
                 </div>
             </div>

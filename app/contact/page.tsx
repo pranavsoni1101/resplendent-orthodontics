@@ -47,14 +47,14 @@ export default function ContactPage() {
                 <InfoPill
                   icon={<Phone className="size-4" />}
                   label="Call us"
-                  value="+91 98XX-XXX-XXX"
-                  href="tel:+91XXXXXXXXXX"
+                  value="+91 9644-057-773"
+                  href="tel: +919644057773"
                 />
                 <InfoPill
                   icon={<MessageCircle className="size-4" />}
                   label="WhatsApp"
-                  value="+91 98XX-XXX-XXX"
-                  href="https://wa.me/91XXXXXXXXXX"
+                  value="+91 9644-057-773"
+                  href="https://wa.me/919644057773"
                 />
               </div>
 
@@ -163,8 +163,8 @@ export default function ContactPage() {
                     icon={<Phone className="size-4 text-primary" />}
                     label="Phone"
                   >
-                    <a href="tel:+91XXXXXXXXXX" className="hover:text-primary">
-                      +91 98XX-XXX-XXX
+                    <a href="tel:+919644057773" className="hover:text-primary">
+                      +91 9644-057-773
                     </a>
                   </DetailRow>
                   <DetailRow
@@ -172,28 +172,31 @@ export default function ContactPage() {
                     label="Email"
                   >
                     <a
-                      href="mailto:care@resplendentorthodontics.com"
+                      href="mailto:resplendent.jaipur@gmail.com"
                       className="hover:text-primary break-all"
                     >
-                      care@resplendentorthodontics.com
+                      resplendent.jaipur@gmail.com
                     </a>
                   </DetailRow>
                   <DetailRow
                     icon={<MapPin className="size-4 text-primary" />}
                     label="Address"
                   >
-                    Malviya Nagar, Jaipur
+                    C-30, Pankaj Singhvi marg ,
                     <br />
-                    Rajasthan, India
+                    Lal kothi, vidhan sabha road.
+                    <br />
+                    Pin code: 302015
+
                   </DetailRow>
                   <DetailRow
                     icon={<Clock className="size-4 text-primary" />}
                     label="Clinic hours"
                   >
-                    Mon – Sat: 10:00 AM – 7:00 PM
+                    Mon – Sat: 10:00 AM – 2:00 PM &amp; 4:00 PM – 7:00 PM
                     <br />
                     <span className="text-xs text-muted-foreground/80">
-                      Closed on Sundays and public holidays.
+                      Sunday: By prior appointment only.
                     </span>
                   </DetailRow>
                 </CardContent>
@@ -211,10 +214,18 @@ export default function ContactPage() {
                     <div className="aspect-[4/3]">
                       <iframe
                         title="Clinic location map"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3558.3914332469285!2d75.79965647540853!3d26.89106966102035!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396db5b0d94e1a01%3A0xd703e31b720126b4!2sResplenDent%20Dental%20Care!5e0!3m2!1sen!2sau!4v1775484496142!5m2!1sen!2sau"
+                        width="600"
+                        height="450"
+                        className="h-full w-full border-0"
+                        loading="lazy"
+                        referrerPolicy="no-referrer-when-downgrade" />
+                      {/* <iframe
+                        title="Clinic location map"
                         src="https://www.google.com/maps/embed?pb="
                         className="h-full w-full border-0"
                         loading="lazy"
-                      />
+                      /> */}
                     </div>
                   </div>
                   <p className="text-sm text-muted-foreground">
@@ -242,7 +253,7 @@ export default function ContactPage() {
                       size="sm"
                       className="border-primary text-primary hover:bg-primary/10"
                     >
-                      <Link href="tel:+91XXXXXXXXXX">
+                      <Link href="tel:+919644057773">
                         <Phone className="mr-2 size-3.5" />
                         Call clinic
                       </Link>
@@ -253,7 +264,7 @@ export default function ContactPage() {
                       size="sm"
                       className="border-secondary text-secondary-foreground hover:bg-secondary/10"
                     >
-                      <Link href="https://wa.me/91XXXXXXXXXX">
+                      <Link href="https://wa.me/919644057773">
                         <MessageCircle className="mr-2 size-3.5" />
                         WhatsApp us
                       </Link>
