@@ -49,59 +49,33 @@ export function Navbar() {
               </NavigationMenuTrigger>
               <NavigationMenuContent className="rounded-xl border border-border/60 bg-card/95 shadow-lg backdrop-blur-sm">
                 <div className="w-[520px] lg:w-[600px] p-4">
-                  <div className="mb-3 px-1">
-                    <p className="text-[11px] font-semibold uppercase tracking-[0.16em] text-secondary-foreground/80">
-                      Comprehensive orthodontic care
+
+                  {/* Orthodontic Care */}
+                  <div className="mb-4">
+                    <p className="mb-2 px-1 text-[11px] font-semibold uppercase tracking-[0.16em] text-secondary-foreground/80">
+                      Orthodontic Care
                     </p>
-                    <p className="text-xs text-muted-foreground">
-                      Explore braces, clear aligners, growth guidance, and
-                      advanced biomechanics.
-                    </p>
+                    <ul className="grid gap-2 sm:grid-cols-2">
+                      <NavLink href="/services/clear-aligners" title="Clear Aligners (Invisalign)" desc="Removable, nearly invisible trays planned digitally for predictable results." />
+                      <NavLink href="/services/brackets" title="Braces" desc="Metal, ceramic, and self-ligating options for precise fixed orthodontics." />
+                      <NavLink href="/services/growth-modifying-appliances" title="Growth Modifying Appliances" desc="Early orthopedic guidance for jaw growth in children and adolescents." />
+                    </ul>
                   </div>
 
-                  <ul className="grid gap-3 sm:grid-cols-2">
-                    <NavLink
-                      href="/services/brackets"
-                      title="Brackets"
-                      desc="Metal, ceramic, self-ligating, and lingual options for precise fixed orthodontics."
-                    />
+                  <div className="my-3 h-px bg-border/60" />
 
-                    <NavLink
-                      href="/services/clear-aligners"
-                      title="Clear Aligners"
-                      desc="Removable, nearly invisible trays planned digitally for predictable results."
-                    />
-
-                    <NavLink
-                      href="/services/growth-modifying-appliances"
-                      title="Growth Modifying Appliances"
-                      desc="Early orthopedic guidance for jaw growth in children and adolescents."
-                    />
-
-                    <NavLink
-                      href="/services/mini-implant"
-                      title="Mini-Implants (TADs)"
-                      desc="Temporary anchorage devices for controlled, complex tooth movements."
-                    />
-
-                    <NavLink
-                      href="/services/extra-alveolar-screws"
-                      title="Extra-Alveolar Screws"
-                      desc="Advanced anchorage for large-scale retraction and adult orthodontics."
-                    />
-
-                    <NavLink
-                      href="/services/digital-surgical-planning"
-                      title="Digital Surgical Planning"
-                      desc="3D-planned orthodontic–surgical coordination for skeletal discrepancies."
-                    />
-
-                    <NavLink
-                      href="/services/artistic-mechanics"
-                      title="Artistic Mechanics"
-                      desc="Finishing, detailing, and smile refinement where precision meets aesthetics."
-                    />
-                  </ul>
+                  {/* Dental Care */}
+                  <div>
+                    <p className="mb-2 px-1 text-[11px] font-semibold uppercase tracking-[0.16em] text-secondary-foreground/80">
+                      Dental Care
+                    </p>
+                    <ul className="grid gap-2 sm:grid-cols-2">
+                      <NavLink href="/services/implants" title="Dental Implants" desc="A stable, natural-feeling option to replace missing teeth." />
+                      <NavLink href="/services/smile-makeover" title="Digital Smile Design & Veneers" desc="Aesthetic smile design planned for natural harmony." />
+                      <NavLink href="/services/rct" title="Root Canal Treatment" desc="Relieve pain and preserve the natural tooth." />
+                      <NavLink href="/services/paediatric-dentistry" title="Paediatric Dental Care" desc="Gentle, kid-friendly care focused on comfort and prevention." />
+                    </ul>
+                  </div>
 
                 </div>
               </NavigationMenuContent>
@@ -270,73 +244,27 @@ function MobileNav() {
             {/* Treatments */}
             <div className="space-y-2">
               <p className="text-[11px] font-semibold uppercase tracking-[0.16em] text-muted-foreground">
-                Treatments
+                Orthodontic Care
               </p>
               <div className="mt-1 flex flex-col space-y-1 text-sm">
-                <SheetClose asChild>
-                  <Link
-                    href="/services/brackets"
-                    className="rounded-md px-1.5 py-1.5 hover:bg-secondary/10 hover:text-primary"
-                  >
-                    Brackets
-                  </Link>
-                </SheetClose>
-
-                <SheetClose asChild>
-                  <Link
-                    href="/services/clear-aligners"
-                    className="rounded-md px-1.5 py-1.5 hover:bg-secondary/10 hover:text-primary"
-                  >
-                    Clear Aligners
-                  </Link>
-                </SheetClose>
-
-                <SheetClose asChild>
-                  <Link
-                    href="/services/growth-modifying-appliances"
-                    className="rounded-md px-1.5 py-1.5 hover:bg-secondary/10 hover:text-primary"
-                  >
-                    Growth Modifying Appliances
-                  </Link>
-                </SheetClose>
-
-                <SheetClose asChild>
-                  <Link
-                    href="/services/mini-implant"
-                    className="rounded-md px-1.5 py-1.5 hover:bg-secondary/10 hover:text-primary"
-                  >
-                    Mini-Implants (TADs)
-                  </Link>
-                </SheetClose>
-
-                <SheetClose asChild>
-                  <Link
-                    href="/services/extra-alveolar-screws"
-                    className="rounded-md px-1.5 py-1.5 hover:bg-secondary/10 hover:text-primary"
-                  >
-                    Extra-Alveolar Screws
-                  </Link>
-                </SheetClose>
-
-                <SheetClose asChild>
-                  <Link
-                    href="/services/digital-surgical-planning"
-                    className="rounded-md px-1.5 py-1.5 hover:bg-secondary/10 hover:text-primary"
-                  >
-                    Digital Surgical Planning
-                  </Link>
-                </SheetClose>
-
-                <SheetClose asChild>
-                  <Link
-                    href="/services/artistic-mechanics"
-                    className="rounded-md px-1.5 py-1.5 hover:bg-secondary/10 hover:text-primary"
-                  >
-                    Artistic Mechanics
-                  </Link>
-                </SheetClose>
+                <SheetClose asChild><Link href="/services/clear-aligners" className="rounded-md px-1.5 py-1.5 hover:bg-secondary/10 hover:text-primary">Clear Aligners (Invisalign)</Link></SheetClose>
+                <SheetClose asChild><Link href="/services/brackets" className="rounded-md px-1.5 py-1.5 hover:bg-secondary/10 hover:text-primary">Braces</Link></SheetClose>
+                <SheetClose asChild><Link href="/services/growth-modifying-appliances" className="rounded-md px-1.5 py-1.5 hover:bg-secondary/10 hover:text-primary">Growth Modifying Appliances</Link></SheetClose>
               </div>
+            </div>
 
+            <div className="my-3 h-px bg-border/60" />
+
+            <div className="space-y-2">
+              <p className="text-[11px] font-semibold uppercase tracking-[0.16em] text-muted-foreground">
+                Dental Care
+              </p>
+              <div className="mt-1 flex flex-col space-y-1 text-sm">
+                <SheetClose asChild><Link href="/services/implants" className="rounded-md px-1.5 py-1.5 hover:bg-secondary/10 hover:text-primary">Dental Implants</Link></SheetClose>
+                <SheetClose asChild><Link href="/services/smile-makeover" className="rounded-md px-1.5 py-1.5 hover:bg-secondary/10 hover:text-primary">Digital Smile Design & Veneers</Link></SheetClose>
+                <SheetClose asChild><Link href="/services/rct" className="rounded-md px-1.5 py-1.5 hover:bg-secondary/10 hover:text-primary">Root Canal Treatment</Link></SheetClose>
+                <SheetClose asChild><Link href="/services/paediatric-dentistry" className="rounded-md px-1.5 py-1.5 hover:bg-secondary/10 hover:text-primary">Paediatric Dental Care</Link></SheetClose>
+              </div>
             </div>
 
             <div className="my-5 h-px bg-border/60" />
