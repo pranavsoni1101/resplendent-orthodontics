@@ -16,7 +16,7 @@ const Home = () => {
 
       {/* 2. About snapshot / clinic philosophy */}
       <section
-        aria-label="About Resplendent Orthodontics"
+        aria-label="About Dr Purva Soni's ResplenDent Orthodontic & Dental Care"
         className="bg-muted/40"
       >
         <AboutSnapshot />

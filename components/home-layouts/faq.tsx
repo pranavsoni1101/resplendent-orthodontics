@@ -129,7 +129,7 @@ export default function SectionFaqResources() {
                 </div>
               </div>
 
-              <ul className="space-y-3 text-sm">
+              {/* <ul className="space-y-3 text-sm">
                 <ResourceLink
                   icon={<ClipboardList className="size-4" />}
                   label="Pre-treatment checklist"
@@ -150,7 +150,7 @@ export default function SectionFaqResources() {
                   label="Emergency orthodontic instructions"
                   href="/resources/emergency-care"
                 />
-              </ul>
+              </ul> */}
 
               <Button
                 asChild

@@ -338,5 +338,28 @@ export const SERVICES: Service[] = [
     ],
     related: ["implants", "clear-aligners", "brackets"],
   },
-
+  {
+    slug: "crowns-bridges",
+    title: "Crowns & Bridges",
+    short: "Restore damaged or missing teeth with durable restorations",
+    overview:
+      "Crowns and bridges restore the function and appearance of damaged or missing teeth. A crown caps a weakened tooth; a bridge fills the gap left by one or more missing teeth, supported by adjacent teeth or implants.",
+    highlights: [
+      "Natural-looking and durable",
+      "Restores chewing function and bite",
+      "Custom-fitted for comfort and aesthetics",
+    ],
+    indications: ["Cracked or weakened teeth", "Missing teeth", "After RCT", "Large cavities"],
+    procedure: [
+      "Clinical evaluation and shade matching",
+      "Tooth preparation and impressions",
+      "Temporary restoration while permanent is made",
+      "Fitting, adjustment, and cementation",
+    ],
+    faqs: [
+      { q: "How long do crowns last?", a: "With good hygiene and regular check-ups, crowns can last many years." },
+      { q: "Is the procedure painful?", a: "Done under local anaesthesia — most patients find it comfortable." },
+    ],
+    related: ["implants", "rct", "biocompatible-fillings"],
+  },
 ];

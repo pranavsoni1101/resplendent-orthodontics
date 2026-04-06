@@ -22,7 +22,7 @@ const ethosItems = [
   {
     title: "Foundations",
     icon: Sparkles,
-    desc: "Rooted in compassion and driven by innovation, Resplendent Orthodontics was founded on the belief that every smile deserves custom care.",
+    desc: "Rooted in compassion and driven by innovation, Dr Purva Soni's ResplenDent Orthodontic & Dental Care was founded on the belief that every smile deserves custom care.",
     image: "https://images.pexels.com/photos/287237/pexels-photo-287237.jpeg",
   },
   {

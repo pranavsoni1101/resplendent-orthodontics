@@ -29,13 +29,13 @@ export default function AboutPage() {
         <div className="mx-auto flex max-w-6xl flex-col gap-10 px-4 sm:px-6 lg:px-8 md:flex-row md:items-center md:justify-between">
           <div className="max-w-2xl space-y-4">
             <p className="text-xs font-medium uppercase tracking-[0.18em] text-secondary-foreground/80">
-              About Resplendent Orthodontics
+              About Dr Purva Soni's ResplenDent Orthodontic & Dental Care
             </p>
             <h1 className="text-3xl md:text-4xl font-semibold tracking-tight text-foreground">
               Crafting confident smiles with precision, science, and compassion.
             </h1>
             <p className="text-base text-muted-foreground">
-              Every smile holds a unique story. At Resplendent Orthodontics, our
+              Every smile holds a unique story. At Dr Purva Soni's ResplenDent Orthodontic & Dental Care, our
               goal is to understand that story, elevate it, and guide you toward
               a healthier, more confident version of yourself.
             </p>
@@ -229,7 +229,7 @@ export default function AboutPage() {
             </CardHeader>
             <CardContent className="space-y-3 text-sm text-muted-foreground">
               <p>
-                Resplendent Orthodontics is built around accuracy and comfort.
+                Dr Purva Soni's ResplenDent Orthodontic & Dental Care is built around accuracy and comfort.
                 Digital tools help us visualize your treatment journey and
                 tailor every movement.
               </p>
@@ -319,7 +319,7 @@ export default function AboutPage() {
           <div className="grid gap-8 md:grid-cols-[1.4fr_1fr] items-start">
             <div>
               <h2 className="text-2xl md:text-3xl font-semibold text-foreground">
-                Why patients choose Resplendent.
+                Why patients choose Dr Purva Soni's ResplenDent Orthodontic & Dental Care.
               </h2>
               <p className="mt-2 text-sm md:text-base text-muted-foreground">
                 Patients often tell us they feel heard, informed, and cared for

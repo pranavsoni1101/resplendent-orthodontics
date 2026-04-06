@@ -112,7 +112,7 @@ export default function ResourcesPage() {
         </div>
       </section>
 
-      {/* DOWNLOADS + FORMS */}
+      {/* DOWNLOADS + FORMS
       <section className="py-10 bg-muted/40">
         <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between gap-4">
@@ -143,7 +143,7 @@ export default function ResourcesPage() {
             <DownloadItem label="Pre-surgery instructions" href="/downloads/pre-surgery.pdf" />
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* FAQ + Quick Help */}
       <section className="py-14 md:py-16">
@@ -159,7 +159,7 @@ export default function ResourcesPage() {
 
             <div className="mt-6">
               <Accordion type="single" collapsible className="w-full space-y-3">
-                <AccordionItem value="faq-1" className="border-border rounded-lg border">
+                <AccordionItem value="faq-1" className="px-2 border-border rounded-lg border">
                   <AccordionTrigger className="text-left whitespace-normal break-words py-3">
                     How long will my orthodontic treatment typically take?
                   </AccordionTrigger>
@@ -168,7 +168,7 @@ export default function ResourcesPage() {
                   </AccordionContent>
                 </AccordionItem>
 
-                <AccordionItem value="faq-2" className="border-border rounded-lg border">
+                <AccordionItem value="faq-2" className="px-2 border-border rounded-lg border">
                   <AccordionTrigger className="text-left whitespace-normal break-words py-3">
                     Will braces or aligners be painful?
                   </AccordionTrigger>
@@ -177,7 +177,7 @@ export default function ResourcesPage() {
                   </AccordionContent>
                 </AccordionItem>
 
-                <AccordionItem value="faq-3" className="border-border rounded-lg border">
+                <AccordionItem value="faq-3" className="px-2 border-border rounded-lg border">
                   <AccordionTrigger className="text-left whitespace-normal break-words py-3">
                     What should I do if an appliance breaks or a wire pokes?
                   </AccordionTrigger>
@@ -186,7 +186,7 @@ export default function ResourcesPage() {
                   </AccordionContent>
                 </AccordionItem>
 
-                <AccordionItem value="faq-4" className="border-border rounded-lg border">
+                <AccordionItem value="faq-4" className="px-2 border-border rounded-lg border">
                   <AccordionTrigger className="text-left whitespace-normal break-words py-3">
                     Are there payment plans available?
                   </AccordionTrigger>
@@ -195,7 +195,7 @@ export default function ResourcesPage() {
                   </AccordionContent>
                 </AccordionItem>
 
-                <AccordionItem value="faq-5" className="border-border rounded-lg border">
+                <AccordionItem value="faq-5" className="px-2 border-border rounded-lg border">
                   <AccordionTrigger className="text-left whitespace-normal break-words py-3">
                     How should I care for my retainers after treatment?
                   </AccordionTrigger>
@@ -232,7 +232,7 @@ export default function ResourcesPage() {
               </CardContent>
             </Card>
 
-            <Card className="border-border bg-secondary/10 p-0">
+            {/* <Card className="border-border bg-secondary/10 p-0">
               <CardContent className="p-4">
                 <h4 className="text-sm font-semibold text-foreground">Need forms filled before your visit?</h4>
                 <p className="mt-1 text-sm text-muted-foreground">Download, print, and bring the completed forms to speed up your first appointment.</p>
@@ -252,7 +252,7 @@ export default function ResourcesPage() {
                   </Button>
                 </div>
               </CardContent>
-            </Card>
+            </Card> */}
           </aside>
         </div>
       </section>
@@ -299,8 +299,8 @@ function ResourceCard({
     variant === "primary"
       ? "border-primary/20"
       : variant === "danger"
-      ? "border-accent/30"
-      : "border-border/40";
+        ? "border-accent/30"
+        : "border-border/40";
 
   return (
     <Card className={`border ${borderClass} bg-card shadow-sm`}>

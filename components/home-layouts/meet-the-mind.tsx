@@ -47,7 +47,7 @@ export default function MeetTheMind() {
                     <div className="lg:col-span-7">
                         <div className="flex flex-wrap items-center gap-2">
                             <p className="text-[11px] font-semibold uppercase tracking-[0.16em] text-secondary-foreground/80">
-                                Meet the Mind Behind Resplendent Orthodontics
+                                Meet the Mind Behind Dr Purva Soni's ResplenDent Orthodontic & Dental Care
                             </p>
 
                             <p className="mt-2 text-xs text-muted-foreground">
@@ -62,7 +62,7 @@ export default function MeetTheMind() {
                         </h2>
 
                         <p className="mt-4 text-base leading-relaxed text-muted-foreground">
-                            Dr. Purva Soni leads Resplendent Orthodontics with a simple belief:
+                            Dr. Purva Soni leads Resplendent Orthodontic & Dental Care with a simple belief:
                             every smile deserves thoughtful planning, gentle care, and results
                             that feel natural. Her approach blends clinical precision with
                             modern tools—so you always know what to expect, and why.
@@ -96,9 +96,7 @@ export default function MeetTheMind() {
                             </Button>
                         </div>
 
-                        <p className="mt-4 text-xs text-muted-foreground">
-                            Replace the image + credentials line with the clinic’s real data for best trust.
-                        </p>
+
                     </div>
                 </div>
             </div>
