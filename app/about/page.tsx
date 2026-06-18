@@ -14,6 +14,7 @@ import {
   ArrowRight,
   SearchCheck,
   Repeat,
+  MapPin,
 } from "lucide-react";
 
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
@@ -62,31 +63,31 @@ export default function AboutPage() {
               <div className="relative h-16 w-16 overflow-hidden rounded-full bg-muted">
                 {/* Replace src with actual image path */}
                 <Image
-                  src="https://images.pexels.com/photos/5214958/pexels-photo-5214958.jpeg"
-                  alt="Dr. Purva Verma"
+                  src="/images/dr-purva-soni.JPG"
+                  alt="Dr. Purva Soni, Orthodontist"
                   fill
                   className="object-cover"
                 />
               </div>
               <div>
                 <CardTitle className="text-base font-semibold">
-                  Dr. Purva Verma
+                  Dr. Purva Verma Soni
                 </CardTitle>
                 <p className="text-xs text-muted-foreground">
-                  Orthodontist &amp; Dentofacial Orthopedist
+                  BDS Gold Medallist · MDS Orthodontist
                 </p>
               </div>
             </CardHeader>
             <CardContent className="space-y-3 text-sm text-muted-foreground">
               <p>
-                Dr. Purva specializes in modern orthodontic care with a strong
-                foundation in scientific research and digital treatment
-                planning.
+                Dr. Purva Verma Soni is a BDS Gold Medallist from DAVV University, Indore,
+                and holds an MDS in Orthodontics from Saveetha University, Chennai — one
+                of India&apos;s top dental schools (2022).
               </p>
               <p>
-                Her philosophy is simple: listen first, diagnose thoroughly,
-                treat with precision, and guide patients gently through each
-                step.
+                She is trained across braces, clear aligners, jaw growth modification,
+                orthognathic surgical planning, dental veneers, and advanced restorative
+                procedures.
               </p>
               <Button
                 asChild
@@ -197,24 +198,26 @@ export default function AboutPage() {
             </CardHeader>
             <CardContent className="space-y-3 text-sm md:text-base text-muted-foreground">
               <p>
-                Dr. Purva Verma has treated a wide spectrum of orthodontic cases
-                across children, teens, and adults. Her practice combines
-                advanced orthodontic mechanics, digital records, and 3D planning
-                to deliver both functional and aesthetic results.
+                Dr. Purva Verma Soni is a <span className="font-medium text-foreground">BDS Gold Medallist</span> from
+                DAVV University, Indore, and completed her MDS in Orthodontics from
+                Saveetha University, Chennai — one of India&apos;s top dental schools — in 2022.
               </p>
               <p>
-                She believes in partnering with patients — explaining every step
-                clearly, aligning expectations, and ensuring that each visit
-                feels calm and reassuring, not rushed or overwhelming.
+                She is finely trained across all forms of orthodontic treatment including
+                braces, clear aligners, jaw growth modification strategies, and orthognathic
+                surgical planning.
               </p>
               <p>
-                From early guidance for children to aesthetic options for
-                working professionals, Dr. Purva&apos;s focus remains constant:
-                precision, compassion, and long-term stability.
+                Passionate about restoring smiles to full confidence, Dr. Purva is also
+                trained in dental veneers and advanced restorative procedures by leading
+                dentists in India.
               </p>
-              <div className="pt-2">
+              <div className="pt-2 flex flex-wrap gap-2">
                 <Badge className="bg-secondary/20 text-secondary-foreground">
                   Orthodontics &amp; Dentofacial Orthopedics
+                </Badge>
+                <Badge className="bg-primary/10 text-primary">
+                  BDS Gold Medallist
                 </Badge>
               </div>
             </CardContent>
@@ -224,38 +227,42 @@ export default function AboutPage() {
           <Card className="border-primary/40 bg-primary/10">
             <CardHeader>
               <CardTitle className="text-base md:text-lg font-semibold text-foreground">
-                A modern, digital orthodontic clinic
+                Best-in-class technology
               </CardTitle>
             </CardHeader>
             <CardContent className="space-y-3 text-sm text-muted-foreground">
               <p>
-                Dr Purva Soni's ResplenDent Orthodontic & Dental Care is built around accuracy and comfort.
-                Digital tools help us visualize your treatment journey and
-                tailor every movement.
+                ResplenDent is equipped with industry-leading technology to ensure
+                total digital precision and a comfortable patient experience at every step.
               </p>
-              <ul className="space-y-2 text-sm">
+              <ul className="space-y-3 text-sm">
                 <li className="flex gap-2">
-                  <ScanLine className="mt-0.5 size-4 text-primary" />
-                  <span>Digital records and treatment simulations.</span>
-                </li>
-                <li className="flex gap-2">
-                  <SmilePlus className="mt-0.5 size-4 text-primary" />
+                  <ScanLine className="mt-0.5 size-4 text-primary shrink-0" />
                   <span>
-                    Aesthetic options including clear aligners and ceramic
-                    braces.
+                    <span className="font-medium text-foreground">iTero Intra-oral Scanner</span> — total digital
+                    workflow with precise 3D visualisation of your teeth and bite, eliminating
+                    uncomfortable traditional impressions.
                   </span>
                 </li>
                 <li className="flex gap-2">
-                  <Activity className="mt-0.5 size-4 text-primary" />
+                  <Activity className="mt-0.5 size-4 text-primary shrink-0" />
                   <span>
-                    Evidence-based mechanics for efficient, predictable tooth
-                    movement.
+                    <span className="font-medium text-foreground">Aeroblast Technology</span> — efficient dental
+                    cleaning using controlled air and water pressure. One of the few clinics
+                    in Jaipur to offer this.
                   </span>
                 </li>
                 <li className="flex gap-2">
-                  <Baby className="mt-0.5 size-4 text-primary" />
+                  <SmilePlus className="mt-0.5 size-4 text-primary shrink-0" />
                   <span>
-                    Protocols for early, growth-guided treatment in children.
+                    Aesthetic treatment options — clear aligners, ceramic braces,
+                    and dental veneers tailored to your lifestyle.
+                  </span>
+                </li>
+                <li className="flex gap-2">
+                  <Baby className="mt-0.5 size-4 text-primary shrink-0" />
+                  <span>
+                    Growth-guided protocols for early orthodontic intervention in children.
                   </span>
                 </li>
               </ul>
@@ -364,6 +371,28 @@ export default function AboutPage() {
                     className="border-secondary text-secondary-foreground hover:bg-secondary/10"
                   >
                     <Link href="/resources">Explore patient resources</Link>
+                  </Button>
+                  <Button asChild variant="outline" className="gap-2">
+                    <a
+                      href="https://www.instagram.com/resplendent_jaipur/reels/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <svg viewBox="0 0 24 24" className="size-4 fill-current shrink-0" aria-hidden="true">
+                        <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+                      </svg>
+                      Instagram
+                    </a>
+                  </Button>
+                  <Button asChild variant="outline" className="gap-2">
+                    <a
+                      href="https://share.google/lxHFkj7ItyXixVbRK"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <MapPin className="size-4" />
+                      Find us on Maps
+                    </a>
                   </Button>
                 </div>
               </CardContent>
