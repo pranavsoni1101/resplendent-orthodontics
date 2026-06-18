@@ -1,36 +1,81 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# ResplenDent Orthodontic & Dental Care — Website
+
+Marketing website for **Dr. Purva Verma Soni's ResplenDent Orthodontic & Dental Care**, a specialist orthodontic clinic based in Jaipur, India.
+
+## Project Brief
+
+**Client:** Dr. Purva Verma Soni  
+**Clinic:** ResplenDent Orthodontic & Dental Care, Jaipur  
+**Type:** Marketing / patient-facing website
+
+### About the clinic
+
+Dr. Purva Verma Soni is a BDS Gold Medallist (DAVV University, Indore) and holds an MDS in Orthodontics from Saveetha University, Chennai (2022). The clinic specialises in braces, clear aligners, jaw growth modification, orthognathic surgical planning, dental veneers, and advanced restorative procedures.
+
+Technology highlights:
+- **iTero intra-oral scanner** — full digital workflow with 3D visualisation
+- **Aeroblast technology** — air & water pressure dental cleaning (one of few clinics in Jaipur to offer this)
+
+### Site goals
+
+- Establish credibility and trust for a specialist orthodontic practice
+- Drive consultation bookings via the contact/booking page
+- Showcase treatments, clinic philosophy, and doctor credentials
+- Provide patient education resources
+
+### Pages
+
+| Route | Description |
+|---|---|
+| `/` | Homepage — hero, about snapshot, meet the doctor, ethos, treatments overview, proof/testimonials, FAQ |
+| `/about` | Full about page — doctor bio, philosophy, treatment journey, technology, values |
+| `/services` | Searchable treatments index |
+| `/services/[slug]` | Individual treatment detail pages |
+| `/resources` | Patient resources |
+| `/contact` | Booking & contact form |
+
+### Key assets
+
+| File | Used in |
+|---|---|
+| `public/images/dr-purva-soni.JPG` | Meet the Mind (homepage), About hero card |
+| `public/images/clinic-room.JPG` | About Snapshot (homepage) |
+| `public/mov/general-checkup.mov` | Hero background video |
+| `public/mov/internal-oral-scan.mov` | Hero floating scan preview card |
+
+### External links
+
+- Instagram: https://www.instagram.com/resplendent_jaipur/reels/
+- Google Maps: https://share.google/lxHFkj7ItyXixVbRK
+
+---
+
+## Tech Stack
+
+| | |
+|---|---|
+| Framework | Next.js 16 (App Router, Turbopack) |
+| Language | TypeScript |
+| Styling | Tailwind CSS v4 |
+| Components | shadcn/ui (Radix UI primitives) |
+| Icons | Lucide React |
+| Animation | Lottie React |
+| Carousel | Embla Carousel |
 
 ## Getting Started
 
-First, run the development server:
-
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Scripts
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```bash
+npm run dev      # development server (Turbopack)
+npm run build    # production build
+npm run start    # serve production build
+npm run lint     # lint
+```
