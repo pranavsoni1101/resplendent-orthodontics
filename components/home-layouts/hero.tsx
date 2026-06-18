@@ -75,7 +75,7 @@ export function Hero2({
   ctaPrimaryLabel = "Book Appointment",
   ctaSecondaryHref = "/services",
   ctaSecondaryLabel = "Explore Treatments",
-  videoSrc = "/hero.mp4",
+  videoSrc = "/mov/general-checkup.mov",
   posterSrc,
   className,
 }: Hero2Props) {
@@ -83,7 +83,7 @@ export function Hero2({
     <section
       className={cn(
         "relative isolate overflow-hidden",
-        "min-h-screen grid place-items-center px-4 sm:px-6", // 👈 changed here
+        "min-h-screen grid place-items-center px-4 sm:px-6",
         className
       )}
       aria-label="Hero"
@@ -93,7 +93,6 @@ export function Hero2({
         <video
           className="h-full w-full object-cover"
           src={videoSrc}
-          // For autoplay to work across browsers:
           muted
           playsInline
           autoPlay
@@ -103,8 +102,8 @@ export function Hero2({
           aria-hidden="true"
         />
         {/* Dark scrim for contrast on a light video */}
-        <div className="absolute inset-0 bg-black/30" />
-        {/* very subtle vignette to lift center text */}
+        <div className="absolute inset-0 bg-black/40" />
+        {/* vignette to lift center text */}
         <div className="pointer-events-none absolute inset-0 bg-gradient-to-b from-black/25 via-black/15 to-black/10" />
       </div>
 
@@ -118,7 +117,6 @@ export function Hero2({
         </p>
 
         <div className="mt-8 flex flex-wrap items-center justify-center gap-3">
-          {/* Dark high-contrast primary: invert shadcn button colors */}
           <Button
             asChild
             className="min-w-[12rem] bg-foreground text-background hover:bg-foreground/90"
@@ -126,7 +124,6 @@ export function Hero2({
             <Link href={ctaPrimaryHref}>{ctaPrimaryLabel}</Link>
           </Button>
 
-          {/* Outline that stays visible on dark/overlay */}
           <Button
             asChild
             variant="outline"
@@ -134,6 +131,30 @@ export function Hero2({
           >
             <Link href={ctaSecondaryHref}>{ctaSecondaryLabel}</Link>
           </Button>
+        </div>
+      </div>
+
+      {/* Floating oral scan preview — bottom-right corner */}
+      <div className="absolute bottom-6 right-6 hidden md:block">
+        <div className="group overflow-hidden rounded-2xl border border-white/20 bg-black/40 shadow-xl backdrop-blur-sm transition-all hover:border-white/40 hover:shadow-2xl">
+          <div className="relative w-64 aspect-video">
+            <video
+              className="h-full w-full object-cover opacity-90 group-hover:opacity-100 transition-opacity"
+              src="/mov/internal-oral-scan.mov"
+              muted
+              playsInline
+              autoPlay
+              loop
+              preload="metadata"
+              aria-hidden="true"
+            />
+          </div>
+          <div className="px-3 py-2">
+            <p className="text-[11px] font-semibold uppercase tracking-[0.14em] text-white/60">
+              Digital Precision
+            </p>
+            <p className="text-xs text-white/90">Internal oral scanning — in clinic</p>
+          </div>
         </div>
       </div>
     </section>

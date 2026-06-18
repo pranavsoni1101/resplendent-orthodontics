@@ -44,8 +44,8 @@ export function AboutSnapshot() {
           {/* Image */}
           <div className="relative h-[260px] sm:h-[320px] md:h-[360px]">
             <Image
-              src="https://images.pexels.com/photos/32852531/pexels-photo-32852531.jpeg"
-              alt="Smiling patient at Dr Purva Soni's ResplenDent Orthodontic & Dental Care"
+              src="/images/clinic-room.jpg"
+              alt="Treatment room at Dr Purva Soni's ResplenDent Orthodontic & Dental Care"
               fill
               sizes="(max-width: 768px) 100vw, 50vw"
               className="object-cover"
