@@ -22,7 +22,7 @@ export default function MeetTheMind() {
                         >
                             {/* Replace with Dr. Purva’s real photo */}
                             <Image
-                                src="/images/dr-purva-soni.JPG"
+                                src="/images/dr-purva-soni.jpg"
                                 alt="Dr. Purva Soni, Orthodontist"
                                 fill
                                 className="object-cover"

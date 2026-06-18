@@ -38,8 +38,8 @@ Technology highlights:
 
 | File | Used in |
 |---|---|
-| `public/images/dr-purva-soni.JPG` | Meet the Mind (homepage), About hero card |
-| `public/images/clinic-room.JPG` | About Snapshot (homepage) |
+| `public/images/dr-purva-soni.jpg` | Meet the Mind (homepage), About hero card |
+| `public/images/clinic-room.jpg` | About Snapshot (homepage) |
 | `public/mov/general-checkup.mov` | Hero background video |
 | `public/mov/internal-oral-scan.mov` | Hero floating scan preview card |
 

@@ -63,7 +63,7 @@ export default function AboutPage() {
               <div className="relative h-16 w-16 overflow-hidden rounded-full bg-muted">
                 {/* Replace src with actual image path */}
                 <Image
-                  src="/images/dr-purva-soni.JPG"
+                  src="/images/dr-purva-soni.jpg"
                   alt="Dr. Purva Soni, Orthodontist"
                   fill
                   className="object-cover"
