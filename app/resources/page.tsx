@@ -67,7 +67,7 @@ export default function ResourcesPage() {
       </section>
 
       {/* RESOURCE GRID */}
-      <section className="py-14 md:py-16">
+      {/* <section className="py-14 md:py-16">
         <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
           <div className="grid gap-6 md:grid-cols-3">
             <ResourceCard
@@ -110,7 +110,7 @@ export default function ResourcesPage() {
             />
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* DOWNLOADS + FORMS
       <section className="py-10 bg-muted/40">

@@ -25,7 +25,7 @@ const items = [
   {
     title: "Technology",
     icon: Microscope,
-    desc: "Digital workflows, aligner systems, and 3D planning to make treatment efficient and predictable.",
+    desc: "Powered by iTero 3D scanning and Aeroblast cleaning tech, placing us among Jaipur's most advanced orthodontic clinics.",
     image: "https://images.pexels.com/photos/6627349/pexels-photo-6627349.jpeg",
   },
 ];

@@ -29,7 +29,7 @@ const treatments = [
     desc: "From classic to aesthetic systems — braces planned carefully for confident, stable results.",
     sub: "Metal • Ceramic • Self-ligating • Lingual",
     icon: Sparkles,
-    href: "/services/braces",
+    href: "/services/brackets",
   },
   {
     title: "Scaling & Polishing",
@@ -71,7 +71,7 @@ const treatments = [
     desc: "Tooth-colored restorations that prioritize biocompatibility and long-term tooth strength.",
     sub: "Composite fillings • Minimal removal",
     icon: HeartHandshake,
-    href: "/services/fillings",
+    href: "/services/biocompatible-fillings",
   },
   {
     title: "Paediatric Dentistry",
