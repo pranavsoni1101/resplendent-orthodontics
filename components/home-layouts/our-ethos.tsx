@@ -25,7 +25,7 @@ const items = [
   {
     title: "Technology",
     icon: Microscope,
-    desc: "House with best in class intra- oral scanner (iTero) ensuring total digital outflow which is very precise and gives efficient 3D visualisation. Aeroblast technology for efficient dental cleaning utilising air and water pressure.One of few clinics in Jaipur to offer so.",
+    desc: "Powered by iTero 3D scanning and Aeroblast cleaning tech, placing us among Jaipur's most advanced orthodontic clinics.",
     image: "https://images.pexels.com/photos/6627349/pexels-photo-6627349.jpeg",
   },
 ];

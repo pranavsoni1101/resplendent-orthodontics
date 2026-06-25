@@ -172,14 +172,15 @@ export default function SectionProof({
                 </Carousel>
               </div>
 
-              <div className="pt-6">
+              {/* <div className="pt-6">
                 <Button
                   className="w-full bg-primary text-primary-foreground hover:bg-primary/90"
+                  disabled
                   asChild
                 >
                   <Link href="/success">View More Success Stories</Link>
                 </Button>
-              </div>
+              </div> */}
             </CardContent>
           </Card>
         </div>

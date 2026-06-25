@@ -112,7 +112,7 @@ export function Navbar() {
               </NavigationMenuLink>
             </NavigationMenuItem>
 
-            <NavigationMenuItem>
+            {/* <NavigationMenuItem>
               <NavigationMenuLink
                 asChild
                 className={cn(
@@ -122,7 +122,7 @@ export function Navbar() {
               >
                 <Link href="/success">Success Stories</Link>
               </NavigationMenuLink>
-            </NavigationMenuItem>
+            </NavigationMenuItem> */}
 
             <NavigationMenuItem>
               <NavigationMenuLink
