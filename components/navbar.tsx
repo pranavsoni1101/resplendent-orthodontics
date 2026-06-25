@@ -2,6 +2,7 @@
 
 import * as React from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { cn } from "@/lib/utils";
 import {
   NavigationMenu,
@@ -28,10 +29,15 @@ export function Navbar() {
     <header className="sticky top-0 z-50 w-full border-b border-border/60 bg-background">
       <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
         {/* ---------- Brand Logo ---------- */}
-        <Link href="/" className="flex items-center gap-2">
-          <span className="text-base font-semibold tracking-tight text-foreground">
-            Resplendent Orthodontics
-          </span>
+        <Link href="/" className="flex items-center">
+
+          <Image
+            src="/images/logo.png"
+            alt="Dr Purva Soni's ResplenDent Orthodontic & Dental Care"
+            width={200}
+            height={64}
+            className="h-12 w-auto object-contain"
+          />
         </Link>
 
         {/* ---------- Desktop Navigation ---------- */}
@@ -226,9 +232,13 @@ function MobileNav() {
         <div className="flex h-full flex-col">
           {/* Visual header */}
           <div className="flex h-16 items-center justify-between border-b border-border px-4">
-            <span className="text-base font-semibold tracking-tight text-foreground">
-              Resplendent Orthodontics
-            </span>
+            <Image
+              src="/images/logo.png"
+              alt="Dr Purva Soni's ResplenDent Orthodontic & Dental Care"
+              width={160}
+              height={50}
+              style={{ height: "36px", width: "auto" }}
+            />
             <SheetClose asChild>
               <button
                 className="inline-flex items-center justify-center rounded-full border border-border bg-card p-1.5 text-muted-foreground hover:bg-muted"

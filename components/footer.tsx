@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { Phone, Mail, MapPin } from "lucide-react";
 
 export default function Footer() {
@@ -9,8 +10,18 @@ export default function Footer() {
 
           {/* Brand */}
           <div>
-            <h3 className="text-xl font-semibold">Dr Purva Soni's ResplenDent Orthodontic & Dental Care</h3>
-            <p className="mt-3 text-sm text-white/80 max-w-sm leading-relaxed">
+            <Link href="/">
+              <div className="inline-block rounded-xl bg-white px-4 py-2">
+                <Image
+                  src="/images/logo.png"
+                  alt="Dr Purva Soni's ResplenDent Orthodontic & Dental Care"
+                  width={200}
+                  height={64}
+                  className="h-12 w-auto object-contain"
+                />
+              </div>
+            </Link>
+            <p className="mt-4 text-sm text-white/80 max-w-sm leading-relaxed">
               Creating confident smiles through precision, technology,
               and compassionate orthodontic care.
             </p>
